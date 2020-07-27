@@ -6,7 +6,7 @@ function check() {
   postA.forEach(function (post) {
     //  addEventListenerが重複して追加されることを回避
     if (post.getAttribute("data-load") != null) {
-      return null
+      return null;
     }
     post.setAttribute("data-load", "true");
     // 投稿をクリックした場合に実行する処理を定義している
