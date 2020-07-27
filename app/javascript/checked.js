@@ -1,7 +1,7 @@
 function check() {
   //  投稿のDOMを取得している
   const posts = document.getElementsByClassName("post");
-   postA = Array.from(posts);    //  ←postsを配列にする
+  postA = Array.from(posts);    //  ←postsを配列にする
 
   postA.forEach(function (post) {
     //  addEventListenerが重複して追加されることを回避
